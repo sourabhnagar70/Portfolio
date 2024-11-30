@@ -2,10 +2,10 @@ import React from 'react'
 import html from "../../public/html.png"
 import css from "../../public/css.jpg"
 import JavaScript from "../../public/javascript.png"
-import java from "../../public/java,png"
+import java from "../../public/java.png"
 import oracle from "../../public/oracle.png"
 import spring from "../../public/spring.png"
-import Springboot from "../../public/springBoot.png"
+import springboot from "../../public/springBoot.jpg"
 function Experiance() {
      const cardItem = [
       {
@@ -40,7 +40,7 @@ function Experiance() {
               },
               {
                 id : 7,
-                logo:Springboot,
+                logo: springboot,
                 name : "SpringBoot"
                 }
      ]
@@ -74,4 +74,4 @@ function Experiance() {
   )
 }
 
-export default Portfolio
+export default Experiance
