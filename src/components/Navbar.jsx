@@ -24,7 +24,7 @@ function Navbar() {
     },
   ]
   return (
-    <div className="max-w-screen-2x1 container mx-auto px-4 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0">
+    <div className="max-w-screen-2x1 container mx-auto px-4 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 z-50 bg-white  ">
        <div className='flex justify-between items-center h-16'>
 
         <div className="flex space-x-2">
@@ -52,7 +52,7 @@ function Navbar() {
        {menu && (
 
         <div>
-         <ul className='md:hidden flex flex-col h-screen items-center justify-center space-y-4 text-xl '>
+         <ul className='md:hidden flex flex-col h-screen items-center justify-center space-y-4 text-xl bg-white '>
          {
               navItems.map(({id,text}) =>(
                 <li className="hover:scale-105 duration-200 cursor-pointer" key={id}>{text}</li>))

@@ -31,7 +31,7 @@ function Home() {
        </div>
       
        <br /> 
-        <p className='text-sm md:text-m text-justify'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, itaque! ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis deserunt provident, soluta inventore sint sapiente ut ullam. Laudantium architecto culpa dolorum fugit ullam.</p>
+        <p className='text-sm md:textsize-{100px} text-justify'>Aspiring software developer skilled in React.js and basic knowledge of Spring Boot. Eager to apply skills inbuilding responsive, user-friendly applications and contribute to innovative projects in a dynamic environment that fosters learning and growth</p>
       <br />
       {/*social media icons*/}
       <div className='flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0'>
@@ -61,7 +61,7 @@ function Home() {
          </ul>
         </div>
          <div className='space-y-2'>
-         <h1 className='font-bold text-center'>Available on</h1>
+         <h1 className='font-bold text-center'>Currently Working on</h1>
          <div className='flex space-x-5'>
          <FaReact   className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-{2px}'    />
          <SiMongodb  className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-{2px}'   />
