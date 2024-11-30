@@ -41,7 +41,7 @@ function Portfolio() {
                   <div className='px-2 font-bold text-xl mb-2'> {name}</div>
                   <p className='px-2 text-gray-700'> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, ipsum!</p>
                 </div>
-                <div className='px-6 py-4  space-x-3 justify-around'>
+                <div className='px-6 py-4  space-x-3 space-y-2 flex-col-center md:flex-row md:space-y-0 justify-around'>
                   <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded'>Video</button>
                   <button className='bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded'>Source Code</button>
                 </div>
