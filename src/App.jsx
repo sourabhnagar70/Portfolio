@@ -10,8 +10,11 @@ import { Toaster } from 'react-hot-toast'
 
 function App() {
   return (
-    <>
-    <div>
+    <> 
+    <div className='bg-black text-white'>
+
+     <div
+     className='bg-black text-white'>
     <Navbar/>
     <Home/>
     <About/>
@@ -19,8 +22,11 @@ function App() {
     <Experiance/>
     <Contact/>
     <Footer/>
+    
     </div>
     <Toaster/>
+   
+    </div>
     </>
   )
 }
