@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import pic from "../../public/photo.avif"
 import { FiMenu } from "react-icons/fi";
 import { IoCloseSharp } from "react-icons/io5";
+import { Link } from 'react-scroll'
 
 function Navbar() {
   const [menu,setMenu]=useState(false);
@@ -39,11 +40,22 @@ function Navbar() {
            <ul className='hidden md:flex space-x-8 '>
             {
               navItems.map(({id,text}) =>(
-                <li className="hover:scale-105 duration-200 cursor-pointer" key={id}>{text}</li>))
+                <li className="hover:scale-105 duration-200 cursor-pointer" key={id}>
+                  
+                  <Link to={text}
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                  activeClass='active'
+                  >{text}</Link>
+                  
+                  
+                  </li>))
             }
            </ul>
            <div onClick={()=>setMenu(!menu)} className='md:hidden'>
-            {menu?<FiMenu size={24}/>:<IoCloseSharp size={24} />}</div>
+            {menu?<IoCloseSharp size={24}/>:< FiMenu size={24} />}
+            </div>
            
         </div>
        </div>
@@ -51,11 +63,24 @@ function Navbar() {
 
        {menu && (
 
-        <div>
-         <ul className='md:hidden flex flex-col h-screen items-center justify-center space-y-4 text-xl bg-white '>
+        <div className='bg-white '>
+         <ul className='md:hidden flex flex-col h-screen items-center justify-center space-y-4 text-xl '>
          {
               navItems.map(({id,text}) =>(
-                <li className="hover:scale-105 duration-200 cursor-pointer" key={id}>{text}</li>))
+                <li className="hover:scale-105 duration-200 cursor-pointer" key={id}>
+                  
+                  <Link 
+                  onClick={()=>setMenu(!menu)}
+                  to={text}
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                  activeClass='active'
+                  >
+                    
+                    {text}
+                  </Link>
+                  </li>))
             }
            </ul>
            </div>

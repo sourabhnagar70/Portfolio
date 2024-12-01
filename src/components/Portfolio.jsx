@@ -28,7 +28,7 @@ function Portfolio() {
             }
      ]
   return (
-    <div className='max-w-screen-2xl container ms-auto px-4 md:px-20 my-16'>
+    <div name="Portfolio" className='max-w-screen-2xl container ms-auto px-4 md:px-20 my-16'>
       <div>
         <h1 className='text-3xl font-bold mb-5'>PortFolio</h1>
         <span className='underline font-semibold'>Featured Project</span>
@@ -41,7 +41,7 @@ function Portfolio() {
                   <div className='px-2 font-bold text-xl mb-2'> {name}</div>
                   <p className='px-2 text-gray-700'> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, ipsum!</p>
                 </div>
-                <div className='px-6 py-4  space-x-3 space-y-2 flex-col-center md:flex-row md:space-y-0 justify-around'>
+                <div className=' px-4 py-2 md:px-6 md:py-4  space-x-3 justify-around flex flexx-row'>
                   <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded'>Video</button>
                   <button className='bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded'>Source Code</button>
                 </div>

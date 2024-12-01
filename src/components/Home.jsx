@@ -14,15 +14,15 @@ import { ReactTyped } from "react-typed";
 
 function Home() {
   return (
-     <div className="max-w-screen-2x1 container mx-auto px-4 md:px-20 my-20">
+     <div name="Home" className="max-w-screen-2x1 container mx-auto px-4 md:px-20 my-20">
       <div className='flex flex-col md:flex-row'>
       <div className='md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1'>
-      <span className='text-xl'>Welcome In My Feed </span>
-        <div className='flex space-x-1 text-2xl md:text-4xl'>
-          <h1>Hello, I'm a</h1>  
+      <span className='text-xl '>Welcome In My Feed </span>
+        <div className='flex  space-x-1 text-xl md:text-4xl'>
+          <h1 className='font-semibold'>Hello,I'm a</h1>  
          {/*<span className='text-red-700 font-bold'>Developer</span>*/}
          <ReactTyped
-          className='text-red-700 font-bold'
+          className=' text-red-700 font-bold  '
           strings={["Developer","Programmer","Coder"]}
           typeSpeed={40}
           backSpeed={50}
@@ -31,7 +31,7 @@ function Home() {
        </div>
       
        <br /> 
-        <p className='text-sm md:textsize-{100px} text-justify'>Aspiring software developer skilled in React.js and basic knowledge of Spring Boot. Eager to apply skills inbuilding responsive, user-friendly applications and contribute to innovative projects in a dynamic environment that fosters learning and growth</p>
+        <p className='text-sm md:text-m text-justify'>Aspiring software developer skilled in React.js and basic knowledge of Spring Boot. Eager to apply skills inbuilding responsive, user-friendly applications and contribute to innovative projects in a dynamic environment that fosters learning and growth</p>
       <br />
       {/*social media icons*/}
       <div className='flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0'>

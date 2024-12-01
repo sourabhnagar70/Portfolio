@@ -6,6 +6,7 @@ import java from "../../public/java.png"
 import oracle from "../../public/oracle.png"
 import spring from "../../public/spring.png"
 import springboot from "../../public/springBoot.jpg"
+import reactjs from "../../public/reactjs.png"
 function Experiance() {
      const cardItem = [
       {
@@ -42,10 +43,15 @@ function Experiance() {
                 id : 7,
                 logo: springboot,
                 name : "SpringBoot"
-                }
+                },
+                {
+                  id : 8,
+                  logo: reactjs,
+                  name : "React.js"
+                  }
      ]
   return (
-    <div className='max-w-screen-2xl container ms-auto px-4 md:px-20 my-16'>
+    <div name="Experience" className='max-w-screen-2xl container ms-auto px-4 md:px-20 my-16'>
       <div>
         <h1 className='text-3xl font-bold mb-5'>Experiance</h1>
         <span className=''> I've more than 2 years of experience in below technologies</span>
