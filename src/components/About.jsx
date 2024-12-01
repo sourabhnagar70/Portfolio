@@ -10,19 +10,19 @@ function About() {
       <br />
       <h1 className='text-green-600 font-semibold text-xl'>Education & Training </h1>
       <span>
-        [Degree/certification].institution, year Lorem ipsum dolor sit amet Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa!
+      To pursue a comprehensive education in Computer Science and Engineering with a specialization in Artificial Intelligence at KIET Group of Institutions, culminating in 2026.
       </span>
       <br />
       <br />
       <h1 className='text-green-600 font-semibold text-xl'>Skill & Experience </h1>
       <span>
-        [Degree/certification].institution, year Lorem ipsum dolor sit amet Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa!
+        Proficient in java,Html,css,javascript,c++ and Experienced with React.js and springboot framework . Excellent problem-solving skills. Effective communicator and collaborator.
       </span>
       <br />
       <br />
       <h1 className='text-green-600 font-semibold text-xl'> Mission Statement </h1>
       <span>
-        [Degree/certification].institution, year Lorem ipsum dolor sit amet Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa!
+      My mission is to leverage my skills and creativity to deliver innovative websites solutions that exceed client expectations and contribute positively to the digital landscape. I am committed to continuous learning and growth, always seeking new challenges and opportunities to expand my horizons.
       </span>
      </div>
     </div>
