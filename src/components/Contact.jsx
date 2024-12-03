@@ -31,8 +31,8 @@ function Contact() {
          //action='https://getform.io/f/brooplma'
           //method="POST" 
           onSubmit={handleSubmit(onSubmit)}
-         className='bg-slate-200 w-54 md:w-96 px-8 py-6 rounded-xl '> 
-          <h1 className='text-xl font-semibold mb-4 text-black'>Send Your Message</h1>
+         className='bg-slate-700 w-54 md:w-96 px-4 py-6 rounded-xl '> 
+          <h1 className='text-xl font-semibold mb-4'>Send Your Message</h1>
           <div className='flex flex-col mb-4'>
             <label className='block text-gray-700 ' >
             FullName

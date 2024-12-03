@@ -31,7 +31,7 @@ function Navbar() {
         <div className="flex space-x-2">
           <img src={pic} className="h-12 w-12 rounded-full" alt="" />
           <h1 className="font-semibold text-xl cursor-pointer">Sourab
-           <span className="text-green-500 text-2xl">h</span>
+           <span className="text-green-400 text-xl">h</span>
            <p className="text-sm"> Web Developer </p>
            </h1>
         </div>
@@ -63,8 +63,8 @@ function Navbar() {
 
        {menu && (
 
-        <div className='bg-black '>
-         <ul className='md:hidden flex flex-col h-screen items-center justify-center space-y-4 text-xl '>
+        <div className='bg-black  '>
+         <ul className='md:hidden flex flex-col h-screen w-full items-center justify-center space-y-4  text-xl '>
          {
               navItems.map(({id,text}) =>(
                 <li className="hover:scale-105 duration-200 cursor-pointer" key={id}>
