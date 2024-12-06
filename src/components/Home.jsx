@@ -14,7 +14,7 @@ import { ReactTyped } from "react-typed";
 
 function Home() {
   return (
-     <div name="Home"  className='max-w-screen-2xl container ms-auto px-4  md:px-20  '>
+     <div name="Home"  className='max-w-screen-2xl container ms-auto px-4 md:px-20 '>
       <div className='flex flex-col md:flex-row'>
       <div className='md:w-1/2 mt-16 md:mt-40 space-y-2 order-2 md:order-1'>
       <span className='text-xl '>Welcome In My Feed </span>
@@ -72,10 +72,10 @@ function Home() {
          </div>
       </div>
       </div>
-      <div  className="md:w-1/2 md:ml-48 md:mt-36 mt-20  object-cover shadow-lg  order-1">
+      <div className='md:w-1/2 md:ml-48 md:mt-36 mt-12 order-1'>
       <img 
       src={pic}
-       className='rounded-full md:w-[450px] md:h-[450px]  ' alt="" />
+       className='rounded-full  md:h-[450px]  ' alt="" />
       </div>
       </div>
       <br />
@@ -86,6 +86,3 @@ function Home() {
 }
 
 export default Home
-
-
-
